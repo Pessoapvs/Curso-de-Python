@@ -76,7 +76,7 @@ ss=n1+1
 print('O numero antercessor ao digitado é {} e o sucessor e {}.' .format(at, ss))
 
 print ('Desafio - 11')
-ct=int(input('Quanto de dinheito tem na carteira: '))
-Dolar=ct*5,30
-print ('Com o saldo da carteria vc consegue comprar {} dolar.'.format(Dolar,))
+ct = float(input(f'Quanto de dinheiro você tem na carteira? R$ '))
+Dolar = ct / 5.30
+print(f'Com R$ {ct:.2f} você pode comprar US$ {Dolar:.2f}')
 
