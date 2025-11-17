@@ -45,10 +45,10 @@ rz2=n1*n1
 print ('O Dobro é {} o triplo é {} e a raiz quadrada é {}'.format(d, t, rz2))
 
 print ('Desafio - 07')
-nt1=int(input('Digite a nota 01: '))
-nt2=int(input('Digite a nota 02: '))
-m=(nt1+nt2)//2
-print ('A media do aluno é {}'.format(m,))
+nt1=float(input('Digite a nota 01: '))
+nt2=float(input('Digite a nota 02: '))
+m=(nt1+nt2)/2
+print ('A media do aluno entre {} e {} é {}'.format(nt1, nt2, m))
 
 print ('Desafio - 08')
 n1=float(input('Digite um numero para convertemos: '))
