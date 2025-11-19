@@ -48,7 +48,10 @@ print ('Desafio - 07')
 nt1=float(input('Digite a nota 01: '))
 nt2=float(input('Digite a nota 02: '))
 m=(nt1+nt2)/2
-print ('A media do aluno entre {} e {} é {}'.format(nt1, nt2, m))
+print ('A media do aluno entre {} e {} é {}'.format(nt1, nt2, m
+
+
+))
 
 print ('Desafio - 08')
 n1=float(input('Digite um numero para convertemos: '))
