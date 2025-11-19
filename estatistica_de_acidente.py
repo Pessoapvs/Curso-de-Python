@@ -9,8 +9,8 @@ mes=input('Digite os mês de  referência; ')
 
 na=float(input('Digite a quantidade de acidentes:  '))
 dp=float(input('Digite a quantidade de dias perdidos: '))
-ht=float(input('Digite a  quantidade de horas trabalhadas: '))
+ht=float(input('Digite a quantidade de horas trabalhadas: '))
 tf=(na*1.000000)/ht
 tg=(dp*1.000000)/ht
 print('A taxa de Gravidade de Acidente do més {} é {} '.format(mes, tg))
-print('A taxa de  frequência de Acidentes de traabalho do mês é:{} '.format(tf,))
+print('A taxa de NovembroFrequência de Acidentes de trabalho do mês é: {} '.format(tf,))
